@@ -1,0 +1,12 @@
+{
+    "name": "@mega-lab/storefront",
+    "dependencies": {
+        "@mega-lab/shared": "workspace:*"
+    },
+    "scripts": {
+        "build": "",
+        "lint": "",
+        "test": "",
+        "dev": ""
+    }
+}

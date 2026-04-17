@@ -1,0 +1,12 @@
+{
+    "name": "@mega-lab/shared",
+    "scripts": {
+        "build": "tsc",
+        "lint": "",
+        "test": "",
+        "dev": ""
+    },
+    "devDependencies": {
+        "typescript": "^6.0.2"
+    }
+}
