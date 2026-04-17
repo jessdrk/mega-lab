@@ -7,13 +7,17 @@
     "build": "turbo build",
     "lint": "turbo lint",
     "test": "turbo test",
-    "dev": "turbo dev"
+    "dev": "turbo dev",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.33.0",
   "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "husky": "^9.1.7",
     "turbo": "^2.9.6"
   }
 }
