@@ -1,1 +1,11 @@
-pnpm commitlint --edit $1
+pnpm commitlint --edit $1 ||  {
+  echo "
+You need to use this format: type: description
+Examples:
+  feat: add login page
+  fix: correct typo in header
+  chore: update dependencies
+Types: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test
+"
+  exit 1
+}
